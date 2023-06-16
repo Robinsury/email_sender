@@ -1,0 +1,47 @@
+body{
+    /* justify-content: center;
+    display: flex; */
+    width: 90%;
+    padding: 30px;
+    margin: 30px;
+}
+h1{
+    font-size: xxx-large;
+    /* text-align: center; */
+}
+form{
+    height: 70%;
+    text-align: center;
+    background-color: rgb(24, 214, 151);
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 70%;
+}
+textarea{
+    width: 70%;
+}
+.form_actions{
+    float: left;
+    margin-left: 18%;
+    
+}
+button{
+    height: 30px;
+    width: 100px;
+}
+@media (max-width:500px) {
+    body{
+        /* height: 50%; */
+        width: 100%;
+
+    }
+    form{
+    width: 60%;   
+    height: 60%;
+    }
+    form .textarea{
+        width: fit-content;
+    }   
+       
+}

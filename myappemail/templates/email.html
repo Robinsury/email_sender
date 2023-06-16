@@ -1,0 +1,19 @@
+{% load static %}
+<html>
+<head>
+    <title> email sender
+    </title>
+    <link rel="stylesheet" href="{% static 'myfirst.css' %}">
+</head>
+<body>
+{% comment %} <h1>contact us</h1> {% endcomment %}
+<form method="post">
+    <h1>contact us</h1>
+    {% csrf_token %}
+    {{form.as_p}}
+    <div class="form_actions">
+        <button type="submit">Send</button>
+    </button>
+</form>
+</body>
+</html>
